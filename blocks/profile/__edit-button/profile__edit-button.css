@@ -4,6 +4,7 @@
   padding: 6px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 980px) {
@@ -12,4 +13,8 @@
     min-height: 7.5px;
     padding: 4.25px;
   }
+}
+
+.profile__edit-button:hover {
+  opacity: .6;
 }

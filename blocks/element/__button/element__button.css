@@ -4,4 +4,19 @@
   color: #000000;
   min-height: 19px;
   min-width: 22px;
+  background-image: url('../../../images/vector-heart-1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;  
 }
+
+.element__button:hover {
+  background-image: url('../../../images/vector-heart-2.svg');
+}
+
+.element__button_active {
+  background-image: url('../../../images/vector-heart-3.svg');
+}
+
+
+
