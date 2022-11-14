@@ -3,7 +3,7 @@
   justify-content: center;
   margin: 51px auto 0;
   padding: 0;
-  min-height: 744px; 
+  min-height: 744px;
   width: 880px;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
