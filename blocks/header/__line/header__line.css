@@ -1,0 +1,6 @@
+.header__line {
+  display: flex;
+  border: 1px solid #545454;
+  opacity: 70%;
+  box-sizing: border-box;  
+}

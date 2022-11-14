@@ -1,0 +1,7 @@
+.element__block {
+  margin: 25px 20px auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
