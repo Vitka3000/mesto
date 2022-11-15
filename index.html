@@ -10,112 +10,75 @@
     <div class="main-page">
       <header class="header">
         <img src="./images/Logo-white.svg" alt="Логотип Mesto" class="header__logo">
-        <div class="header__line"></div>
       </header>
       <section class="profile">
-        <div class="profile__image">
-          <img src="./images/avatar-kusto.jpg" alt="Аватар Кусто" class="profile__avatar">
-        </div>
+        <img src="./images/avatar-kusto.jpg" alt="Аватар Кусто" class="profile__image">
         <div class="profile__profile-info">
           <div class="profile__profile-info-name">
             <h1 class="profile__title">Жак-Ив Кусто</h1>
-            <img src="./images/Edit-button-vector.svg" alt="Значёк карандаша" class="profile__edit-button">
+            <button type="button" class="profile__edit-button"></button>
           </div>
           <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <div class="profile__add-button">
-          <img src="./images/add-button-cross.svg" alt="Знак плюс" class="profile__add-button-item">
-        </div>
+        <button type="button" class="profile__add-button"></button>
       </section>
       <section class="elements" aria-label="Фотографии достопримечательностей">
-        <div class="element">
+        <article class="element">
           <img class="element__image" src="./images/Karachaevsk.jpg" alt="Фотография замка">
           <div class="element__block">
             <h2 class="element__title">Карачаево-Черкессия</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img class="element__image" src="./images/Dombay.jpg" alt="Фотография гор кавказа">
           <div class="element__block">
             <h2 class="element__title">Домбай</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img class="element__image" src="./images/Gora-Elbrus.jpg" alt="Фотография Эльбруса">
           <div class="element__block">
             <h2 class="element__title">Гора Эльбрус</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img class="element__image" src="./images/desert-sunset.jpg" alt="Закат в пустыне">
           <div class="element__block">
             <h2 class="element__title">Закат в пустыне</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img class="element__image" src="./images/volcano.jpg" alt="Извержение вулкана">
           <div class="element__block">
             <h2 class="element__title">Вулкан</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img class="element__image" src="./images/winter-mountains.jpg" alt="Дом в горах">
           <div class="element__block">
             <h2 class="element__title">Дом в горах</h2>
-            <div class="element__button"></div>
+            <button type="button" class="element__button"></button>
           </div>
-        </div>
+        </article>
       </section>
       <footer class="footer">
         <p class="footer__copyright">&copy;&nbsp;2020 Mesto Russia</p>
       </footer>
       <div class="popup">
-        <div class="popup__container">
+        <form class="popup__container" name="profile__form">
           <button class="popup__close"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <input class="popup__text" type="text" name="name-input" value="Жак-Ив Кусто">
-          <div class="popup__line"></div>
-          <input class="popup__text" type="text" name="job-input" value="Исследователь океана">
-          <div class="popup__line"></div>
-          <button class="popup__submit">Сохранить</button>
-        </div>
+          <input class="popup__text block__element" type="text" name="name-input" value="Жак-Ив Кусто">
+          <input class="popup__text block__element_key_value" type="text" name="job-input" value="Исследователь океана">
+          <button type="submit" class="popup__submit">Сохранить</button>
+        </form>
       </div>
     </div>
-    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
   </body>
 </html>
-
-
-<!--
-        <section class="profile">
-        <div class="profile__image">
-          <img src="./images/avatar-kusto.jpg" alt="Аватар Кусто" class="profile__avatar">
-        </div>
-        <div class="profile__profile-info">
-          <div class="profile__profile-info-name">
-            <h1 class="profile__title">Жак-Ив Кусто</h1>
-            <img src="./images/Edit-button-vector.svg" alt="Значёк карандаша" class="profile__edit-button">
-          </div>
-          <p class="profile__subtitle">Исследователь океана</p>
-        </div>
-        <img src="./images/add-button-cross.svg" alt="Знак плюс" class="profile__add-button">
-      </section>
--->
-<!--
-      <div class="popup">
-        <div class="popup__container">
-          <button class="popup__close"></button>
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <p class="popup__text">Жак-Ив Кусто</p>
-          <div class="popup__line"></div>
-          <p class="popup__text">Исследователь океана</p>
-          <div class="popup__line"></div>
-          <button class="popup__submit">Сохранить</button>
-        </div>
-      </div>
--->

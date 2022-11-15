@@ -7,7 +7,8 @@
   background-image: url('../../../images/vector-heart-1.svg');
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .element__button:hover {

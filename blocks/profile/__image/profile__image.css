@@ -3,6 +3,7 @@
   width: 120px;
   margin: -3.75px 3.75px -3.75px -22.5px;
   padding: 3.75px 26.25px 3.75px 22.5px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 980px) {
