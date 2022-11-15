@@ -3,8 +3,8 @@ const popupElem = document.querySelector('.popup');
 const popupCloseElem = document.querySelector('.popup__close');
 
 
-const nameInput = document.querySelector('.block__element');
-const jobInput = document.querySelector('.block__element_key_value');
+const nameInput = document.querySelector('.popup__text_input_name');
+const jobInput = document.querySelector('.popup__text_input_job');
 const titleElem = document.querySelector('.profile__title');
 const subtitleElem = document.querySelector('.profile__subtitle');
 
