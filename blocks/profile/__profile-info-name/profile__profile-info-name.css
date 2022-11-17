@@ -3,5 +3,14 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 0;
-  margin: 0 0 auto;
+  margin: 0 0 16px;
+  height: 39px;
+  }
+
+@media screen and (max-width: 980px) {
+  .profile__profile-info-name {
+    min-height:26px;
+    min-width: 217px;
+    margin-bottom: 4px;
+  }
 }
